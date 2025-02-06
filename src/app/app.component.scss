@@ -1,0 +1,48 @@
+th.mat-header-cell {
+    text-align: center;
+}
+
+.mat-dialog-container {
+    font-family: Arial, sans-serif;
+    padding: 20px;
+    text-align: center;
+}
+
+button {
+    margin: 10px;
+}
+.form-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 50px 0;
+  }
+  
+  .student-form {
+    width: 100%;
+    max-width: 800px;
+    display: grid;
+    gap: 20px;
+    grid-template-columns: repeat(2, 1fr); /* Two fields per row */
+  }
+  
+  .form-field {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .submit-button {
+    display: flex;
+    justify-content: center;
+    grid-column: span 2; /* Submit button spans both columns */
+  }
+  
+  mat-form-field {
+    width: 100%;
+  }
+  
+  mat-checkbox, mat-radio-group {
+    display: flex;
+    align-items: center;
+  }
+  
